@@ -1,0 +1,920 @@
+ *
+{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+/*
+
+ box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4;
+
+  filter: blur(0px);
+     -webkit-box-reflect: below
+                            1px linear-gradient(transparent, red);
+ 
+      transition: 5s;   
+
+
+    box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4,
+    0 0 25px #03e9f4,0 0 50px #03e9f4;   
+    
+    
+    filter: drop-shadow(10px 8px 6px red);  
+
+
+     -webkit-box-reflect: below
+    1px linear-gradient(transparent, red);
+    transition: 5s;
+
+*/
+
+html
+{
+    scroll-behavior: smooth;
+    display: flex;
+}
+.selection01
+{
+    display: flex;
+    width: 100%;
+    height:633px;
+    background-image: linear-gradient(
+        130deg,
+        hsl(0deg 0% 0%) 0%,
+        hsl(0deg 0% 0%) 23%,
+        hsl(0deg 0% 0%) 47%,
+        hsl(0deg 0% 0%) 68%,
+        hsl(0deg 2% 6%) 81%,
+        hsl(0deg 6% 14%) 89%,
+        hsl(0deg 9% 22%) 94%,
+        hsl(5deg 10% 31%) 97%,
+        hsl(16deg 8% 42%) 99%,
+        hsl(26deg 7% 53%) 100%,
+        hsl(35deg 10% 64%) 100%,
+        hsl(40deg 18% 73%) 101%,
+        hsl(45deg 36% 82%) 100%,
+        hsl(50deg 84% 90%) 100%
+      );
+}
+.header
+{
+    width: 100%;
+    height: 60px;
+    text-transform: uppercase;
+    position: relative;
+}
+.header h1{
+    display: inline-flex;
+    position: relative;
+    left: 25px;
+    top: 20px;
+    color: wheat;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    word-spacing: 2.6px;
+    font-weight: 700;
+    text-decoration: overline solid rgb(235, 198, 198);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;  
+    /* text-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4;   */
+    animation:  headerh1 5s infinite;
+}
+@keyframes headerh1 {
+    0%{
+        text-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4;    
+    }
+    20%{
+        text-shadow: 0 0 5px #222727, 0 0 15px #450eac;  
+    }
+    40%{
+        text-shadow: 0 0 5px #39a806, 0 0 15px #450eac;  
+    }
+    60%{
+        text-shadow: 0 0 5px #e20c2f17, 0 0 15px #d3cedb;  
+    }
+    80%{
+        text-shadow: 0 0 5px #d8ca0d, 0 0 15px #1ee70c;  
+    }
+    100%{
+        text-shadow: 0 0 5px #222727, 0 0 15px #450eac;  
+    }
+}
+.header ul li{
+    position: absolute;
+    left: 70%;   
+    list-style: none; 
+    
+
+}
+.header ul li a{
+    padding: 15px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    text-decoration: solid rgb(236, 230, 230);
+}
+.name_{
+
+    background-color: wheat;
+    position: absolute;
+    left: 42%;
+    top: 42%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    color: linen;
+    font-size: xx-large;
+    /* transition: 3s; */
+    /* animation:  headerh1 5s infinite; */
+}
+.name_:hover{
+    text-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4;
+    transition: 3s;
+}
+.header ul li a:hover{
+    text-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4;
+    text-decoration: underline;
+    box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4; 
+    border-radius: 10px;
+}
+.explore{
+    width: 150px;
+    height: 50px;
+    background-color: wheat;
+    position: absolute;
+    top: 55%;
+    left: 43%;
+    border-radius: 30px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: transparent;
+    border-color: wheat;
+    border: 1px solid rgb(250, 192, 192);
+    /* box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4;  */
+    background-color: rgb(200, 200, 230);
+    
+    border: 1px solid rgb(28, 14, 230);
+    box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4; 
+   
+}
+.explore h1{
+    position: relative;
+    color: rgb(27, 25, 20);
+   
+}
+.explore:hover{
+    background-color: rgb(200, 200, 230);
+    transition: 2s;
+    border: 1px solid rgb(28, 14, 230);
+    box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4; 
+   
+}
+.explore h1:hover{
+    color: black;
+}
+/* 
+.one1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(250, 192, 192);
+    position: absolute;
+    top: 83%;
+    left: 10%;
+    border-radius: 20px;
+}
+.one2{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(250, 192, 192);
+    position: absolute;
+    top: 43%;
+    left: 25%;
+    border-radius: 20px;
+}
+.one3{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(250, 192, 192);
+    position: absolute;
+    top: 43%;
+    left: 80%;
+    border-radius: 20px;
+}
+.one4{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(250, 192, 192);
+    position: absolute;
+    top: 83%;
+    left: 70%;
+    border-radius: 20px;
+    animation: design_one duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes design_one {
+    from{
+        transform: rotateX(60deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}*/
+/* .top_cube
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform-style: preserve-3d;
+    background-color: wheat;
+    top: 20%;
+    left: 10%;
+    transform: rotate(-30deg);
+   
+} */
+ .sri{
+    position: absolute;
+    background-color: wheat;
+    
+ }
+.sri h1{
+    position: relative;
+    color: blue;
+}
+.contact_con{
+    width: 700px;
+    height: 70px;
+    position: absolute;
+    background-color: transparent;
+    top: 75%;
+    left: 25%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.contact_con h1{
+    position: relative;
+    top: 25%;
+    color: #222727;   
+}
+/* .contact_con h1:hover{
+    text-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4;
+    transition: 2s;
+} */
+
+/* section 1 over ==========================
+=======================================
+=======================================
+=======================================
+======================================*/
+
+/* section 2 ==========================
+=======================================
+=======================================
+=======================================
+======================================*/
+
+.intro
+{
+    width: 100%;
+    height:633px;
+    background-image: linear-gradient(
+        130deg,
+        hsl(0deg 0% 0%) 0%,
+        hsl(0deg 0% 0%) 23%,
+        hsl(0deg 0% 0%) 47%,
+        hsl(0deg 0% 0%) 68%,
+        hsl(0deg 2% 6%) 81%,
+        hsl(0deg 6% 14%) 89%,
+        hsl(0deg 9% 22%) 94%,
+        hsl(5deg 10% 31%) 97%,
+        hsl(16deg 8% 42%) 99%,
+        hsl(26deg 7% 53%) 100%,
+        hsl(35deg 10% 64%) 100%,
+        hsl(40deg 18% 73%) 101%,
+        hsl(45deg 36% 82%) 100%,
+        hsl(50deg 84% 90%) 100%
+      ); 
+    
+}
+.intro_det
+{
+    width: 500px;
+    height: 600px;
+    background-color: transparent;
+    position: absolute;
+    left: 20px;
+    margin: 10px 10px ;
+    display: inline-block;
+    border: 0.1px solid white;
+    border-radius: 30px;
+    color: rgba(249, 249, 250, 0.959);
+    /* text-shadow: 0 0 5px #011213, 0 0 10px #2f05a0,
+    0 0 15px #350c94,0 0 10px #990404; */
+     animation: boder_intro 3s infinite;
+    
+}
+@keyframes boder_intro {
+    0%{
+        border-color: #39b807 rgb(109, 5, 179); 
+    }
+    20%{
+        border-color: #33059e rgb(196, 191, 188); 
+    }
+    40%{
+        border-color: #e1dff0 rgb(10, 8, 7); 
+    }
+    60%{
+        border-color: #b3021a rgb(69, 3, 95); 
+    }
+    80%{
+        border-color: #a216c52d rgb(69, 3, 95);
+    }
+    100%{
+        border-color: #0a991d rgba(51, 3, 70, 0.555);
+    }
+}
+.my_pic{
+    width: 500px;
+    height: 400px;
+    border: 0.1px solid white;
+    display: inline-block;
+    position: relative;
+    left: 60%;
+    top: 25%;
+    background-image: url(srinath.jpg);
+    background-size: cover;
+    background-clip: content-box;
+    background-position: center;
+    border-radius: 3000px;
+    box-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4,
+    0 0 15px #03e9f4,0 0 10px #03e9f4;   
+    animation: img_boder_des_my_pic ;
+    /* box-shadow: 0 0 5px #011213, 0 0 10px #2f05a0,
+    0 0 15px #350c94,0 0 10px #990404;  */
+}
+
+/* @keyframes img_boder_des_my_pic {
+    0%{
+        box-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4,
+        0 0 15px #03e9f4,0 0 10px #03e9f4; 
+    }
+    100%{
+        box-shadow: 0 0 5px #011213, 0 0 10px #2f05a0,
+        0 0 15px #350c94,0 0 10px #990404; 
+    }
+} */
+
+.intro_det h1{
+   position: absolute;
+   top: 20%;
+   left: 20px;
+}
+.intro_det h3{
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 20px;
+    animation:  headerh1 5s infinite;
+    font-size: x-large;
+}
+.intro_det p{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    font-size: medium;
+    font-style: italic;
+}
+.intro_det p span{
+    text-decoration: underline;
+    font-size: large;
+}
+.thank{
+    width: 150px;
+    height: 50px;
+    background-color:transparent;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(200, 200, 230);
+    transition: 2s;
+    border: 1px solid rgb(28, 14, 230);
+    box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4
+}
+.thank h2{
+    position: relative;
+    top: 10px;
+    color: black;
+}
+
+/* section 2 over ==========================
+=======================================
+=======================================
+=======================================
+======================================*/
+
+/* section 3 ==========================
+=======================================
+=======================================
+=======================================
+======================================*/
+
+.desi_skills{
+    width: 100%;
+    height:633px;
+    background-image: linear-gradient(
+        130deg,
+        hsl(0deg 0% 0%) 0%,
+        hsl(0deg 0% 0%) 23%,
+        hsl(0deg 0% 0%) 47%,
+        hsl(0deg 0% 0%) 68%,
+        hsl(0deg 2% 6%) 81%,
+        hsl(0deg 6% 14%) 89%,
+        hsl(0deg 9% 22%) 94%,
+        hsl(5deg 10% 31%) 97%,
+        hsl(16deg 8% 42%) 99%,
+        hsl(26deg 7% 53%) 100%,
+        hsl(35deg 10% 64%) 100%,
+        hsl(40deg 18% 73%) 101%,
+        hsl(45deg 36% 82%) 100%,
+        hsl(50deg 84% 90%) 100%
+      ); 
+}
+.contain_all_skill div{
+    animation: boder_intro 1s infinite;
+}
+
+
+/* section 3 over ==========================
+=======================================
+=======================================
+=======================================
+======================================*/
+
+/* section 4 ==========================
+=======================================
+=======================================
+=======================================
+======================================*/
+.about_me{
+    width: 100%;
+    height:633px;
+    background-image: linear-gradient(
+        130deg,
+        hsl(0deg 0% 0%) 0%,
+        hsl(0deg 0% 0%) 23%,
+        hsl(0deg 0% 0%) 47%,
+        hsl(0deg 0% 0%) 68%,
+        hsl(0deg 2% 6%) 81%,
+        hsl(0deg 6% 14%) 89%,
+        hsl(0deg 9% 22%) 94%,
+        hsl(5deg 10% 31%) 97%,
+        hsl(16deg 8% 42%) 99%,
+        hsl(26deg 7% 53%) 100%,
+        hsl(35deg 10% 64%) 100%,
+        hsl(40deg 18% 73%) 101%,
+        hsl(45deg 36% 82%) 100%,
+        hsl(50deg 84% 90%) 100%
+      ); 
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+}
+
+.full_box
+{
+    width: 90%;
+    height: 550px;
+    background-color:transparent;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    border: 2px solid wheat;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+   
+ }/*
+.full_box div{
+    width: 300px;
+    height: 300px;
+    top: 30%;
+    left: 14%;
+    border: 2px solid wheat;
+    background-color: transparent;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    animation: ani011 5s 1;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4;
+    background-image: linear-gradient(
+        130deg,
+        hsl(0deg 0% 0%) 0%,
+        hsl(0deg 0% 0%) 23%,
+        hsl(0deg 0% 0%) 47%,
+        hsl(0deg 0% 0%) 68%,
+        hsl(0deg 2% 6%) 81%,
+        hsl(0deg 6% 14%) 89%,
+        hsl(0deg 9% 22%) 94%,
+        hsl(5deg 10% 31%) 97%,
+        hsl(16deg 8% 42%) 99%,
+        hsl(26deg 7% 53%) 100%,
+        hsl(35deg 10% 64%) 100%,
+        hsl(40deg 18% 73%) 101%,
+        hsl(45deg 36% 82%) 100%,
+        hsl(50deg 84% 90%) 100%
+      ); 
+      
+} */
+.footer{
+    position: relative;
+    width: 93%;
+    height: 100px;
+    background-color: transparent;
+    left: 40px;
+    top: 60%;
+    border: 1px solid wheat;
+    color: white;
+    opacity: 50%;
+    border-radius: 20px;
+    /* animation: boder_intro 3s infinite; */
+}
+.footer p{
+    position: relative;
+    text-align: center;
+    top: 30px;
+    text-shadow: 0 0 5px white, 0 0 15px silver;
+    color: white;
+    font-size: large;
+}
+.github{
+    position: relative;
+    background-color: transparent;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-size: 5rem;
+    left: 15%;
+    border-radius: 20px;
+    text-align: center;
+    top:20%;
+    border: 1px solid wheat;
+}
+.github i,.linkedin i,.twitter i,.mail i,.facebook i{
+    position: relative;
+    top: 10px;
+    color: rgb(120, 245, 3);
+    
+}
+.full_box div{
+    animation: boder_intro 1s infinite;
+    color: rgb(120, 245, 3);
+    box-shadow: 0 0 5px #03e9f4, 0 0 5px #03e9f4; 
+}
+.linkedin{
+    position: relative;
+
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-size: 5rem;
+    left: 35%;
+    border-radius: 20px;
+    text-align: center;
+    top:20%;
+    border: 1px solid wheat;
+   
+}
+.twitter{
+    position: relative;
+   
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-size: 5rem;
+    left: 55%;
+    border-radius: 20px;
+    text-align: center;
+    top:20%;
+    border: 1px solid wheat;
+}
+.mail{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-size: 5rem;
+    left: 3%;
+    border-radius: 20px;
+    text-align: center;
+    top:50%;
+    border: 1px solid wheat;
+}
+.facebook{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-size: 5rem;
+    left: 25%;
+    border-radius: 20px;
+    text-align: center;
+    top:50%;
+    border: 1px solid wheat;
+    
+}
+.facebook:hover i,.mail:hover i,.twitter:hover i,.linkedin:hover i,.github:hover i{
+    font-size: 4rem;
+    transition: 1s;
+    color: red;
+}
+
+
+/* =========== Debug ================= 
+=====================================
+====================================
+=====================================
+========================================*/
+
+
+.login_form{
+
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    z-index: 1;
+    top: 15%;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid wheat;
+    /* background-image: url(car01.jpg);
+    background-repeat: no-repeat;
+    background-size: contain; */
+    background-image: linear-gradient(
+        130deg,
+        hsl(0deg 0% 0%) 0%,
+        hsl(0deg 0% 0%) 23%,
+        hsl(0deg 0% 0%) 47%,
+        hsl(0deg 0% 0%) 68%,
+        hsl(0deg 2% 6%) 81%,
+        hsl(0deg 6% 14%) 89%,
+        hsl(0deg 9% 22%) 94%,
+        hsl(5deg 10% 31%) 97%,
+        hsl(16deg 8% 42%) 99%,
+        hsl(26deg 7% 53%) 100%,
+        hsl(35deg 10% 64%) 100%,
+        hsl(40deg 18% 73%) 101%,
+        hsl(45deg 36% 82%) 100%,
+        hsl(50deg 84% 90%) 100%
+      ); 
+      background-image: url(gojo01.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+/* .design_form{
+    position: relative;
+    width: 3px;
+    height: 115%;
+    background-color: black;
+    left: 60%;
+    top: -38px;
+    transform: rotate(-30deg);
+    border-left: 20px;
+    display: inline-block;
+} */
+.login_inside{
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    left: 24%;
+    top: 10%;
+    border: 2px solid white;
+    border-radius: 30px; 
+    font-style: italic;
+    background-image: url(gojo01.jpg);  
+}
+.login_inside h2{
+    position: relative;
+    left: 45%;
+    top: 2%;
+    text-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4
+}
+.login_inside ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    position: relative;
+    margin-top: 30px;
+    left: 20%;
+}
+.login_inside li{
+    padding: 10px;
+    position: relative;
+    margin-top: 40px;
+}
+.login_inside input{
+    width: 60%;
+    height: 30px;
+}
+#checkbox{
+    width: 20px;
+    height: 16px;
+    top: -20px;
+    position: relative;
+}
+.show_pass{
+   position:relative;
+    left: 29%;
+    top: -15%;
+    font-size: medium;
+    color: black;
+}
+.for_pass
+{
+    position:relative;
+    left: 59%;
+    top: -19%;
+    font-size: medium;
+    color: #d3cedb;
+}
+.btn{
+    width: 90px;
+    padding: 10px;
+    text-transform:uppercase;
+    position: relative;
+    left: 59%;
+    top: -10%;
+    box-shadow: 0 0 5px #040d0e, 0 0 15px #000a0a;
+    background-color: rgb(200, 200, 230);
+    border: 1px solid rgb(28, 14, 230);
+    box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4;
+    border-radius: 20px;
+}
+
+
+
+/* ======================================
+=====================================
+======================================
+=================================
+=============================== */
+
+
+
+.certificate
+{
+    width: 100%;
+    height:633px;
+    background-image: linear-gradient(
+        130deg,
+        hsl(0deg 0% 0%) 0%,
+        hsl(0deg 0% 0%) 23%,
+        hsl(0deg 0% 0%) 47%,
+        hsl(0deg 0% 0%) 68%,
+        hsl(0deg 2% 6%) 81%,
+        hsl(0deg 6% 14%) 89%,
+        hsl(0deg 9% 22%) 94%,
+        hsl(5deg 10% 31%) 97%,
+        hsl(16deg 8% 42%) 99%,
+        hsl(26deg 7% 53%) 100%,
+        hsl(35deg 10% 64%) 100%,
+        hsl(40deg 18% 73%) 101%,
+        hsl(45deg 36% 82%) 100%,
+        hsl(50deg 84% 90%) 100%
+      ); 
+     
+}
+.contain_all_skill{
+    width: 90%;
+    height: 90vh;
+    border: 2px solid wheat;
+    position: relative;
+   left: 50px;
+   text-align: center;
+   top: 50px;
+  border-radius: 20px;
+}
+.contain_all_skill div{
+    width: 150px;
+    height: 150px;
+    border: 2px solid wheat;
+    display: inline-block;
+    left: 10px;
+    position: relative;
+    border-radius: 20px;
+    text-align: center;
+    top: 100px; 
+    margin-top: 20px;
+    
+    /* animation: boder_intro 1s infinite; */
+    color: red;
+    box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4; 
+}
+.contain_all_skill div h2{
+    font-size: large;
+    font-style: italic;
+    padding: 10px;
+    color: white;
+    /* animation:  headerh1 5s infinite; */
+}
+.contain_all_skill div i{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(120, 245, 3);
+   
+}
+.contain_all_skill h1{
+    color: white;
+    position: relative;
+    top: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    animation:  headerh1 5s infinite;
+}
+.contain_all_certificate{
+    width: 90%;
+    height: 90vh;
+    border: 2px solid wheat;
+    position: relative;
+    left: 50px;
+   text-align: center;
+   top: 50px;
+   border-radius: 20px;
+}
+.fresher{
+   
+    background-color:transparent;
+    text-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4;
+    text-transform: uppercase;
+}
+
+.contain_all_certificate div{
+     justify-content: center;
+     margin-top: 1px;
+     text-transform: uppercase;
+     border-radius: 10px;    
+     background-color: wheat;
+    /* display: flex; */
+    position: relative;
+    padding-top: 10px;
+    animation: boder_intro 1s infinite;
+}
+.javacer{
+    width: 20%;
+    height: 10vh;
+    left: 20%;
+    top: 20%; 
+}
+.hcj{
+    width: 20%;
+    height: 10vh;
+    left: 25%;
+    top: 20%;
+}
+.googlecloud{
+    width: 20%;
+    height: 10vh;
+    left: 30%;
+    top: 20%;
+}
+.cprg{
+    width: 20%;
+    height: 10vh;
+    left: 35%;
+    top: 20%;
+}
+.javascript{
+    width: 20%;
+    height: 10vh;
+    left: 40%;
+    top: 20%;
+}
+.cert{
+    color: wheat;
+    text-transform: uppercase;
+    position: relative;
+    animation: boder_intro 1s infinite;
+    animation:  headerh1 5s infinite;
+    top: 7%;
+}
